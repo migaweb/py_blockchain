@@ -10,3 +10,11 @@ python -m venv .venv
 ´´´
 pip install -r requirements.txt
 ´´´
+
+**Running tests**
+
+Make sure to activate the virtual environment.
+
+´´´
+python -m pytest backend/tests
+´´´
