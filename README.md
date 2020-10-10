@@ -26,3 +26,12 @@ Make sure to activate the virtual environment.
 ´´´
 python -m backend.app
 ´´´
+
+**Running a peer**
+Make sure to activate the virtual environment.
+
+´´´
+
+\$env:PEER = 'True'; python -m backend.app
+
+´´´
