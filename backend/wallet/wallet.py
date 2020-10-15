@@ -28,7 +28,10 @@ class Wallet:
         Generate a signature based on the data using the local private key.
         """
 
-        return self.private_key.sign(json.dumps(data).encode('utf-8'), ec.ECDSA(hashes.SHA256()))
+        return self.private_key.sign(
+            json.dumps(data).encode('utf-8'),
+            ec.ECDSA(hashes.SHA256())
+        )
 
     @staticmethod
     def verify(public_key, data, signature):
