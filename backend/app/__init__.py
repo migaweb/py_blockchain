@@ -32,6 +32,11 @@ def route_blockchain():
 @app.route('/blockchain/mine')
 def route_blockchain_mine():
     transaction_data = transaction_pool.transaction_data()
+    reward_transaction = Transaction.reward_transaction(wallet)
+
+    transaction_data.append(reward_transaction.to_json())
+
+    print(f'transaction_data: {transaction_data}')
 
     blockchain.add_block(transaction_data)
 
