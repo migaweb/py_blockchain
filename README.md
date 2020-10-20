@@ -35,3 +35,10 @@ Make sure to activate the virtual environment.
 \$env:PEER = 'True'; python -m backend.app
 
 ´´´
+
+**Run the frontent**
+In the frontend directory:
+
+´´´
+npm run start
+´´´

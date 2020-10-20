@@ -3,3 +3,4 @@ Flask==1.1.2
 pubnub==4.5.4
 requests==2.24.0
 cryptography==3.1.1
+Flask-Cors==3.0.9
