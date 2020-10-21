@@ -35,6 +35,14 @@ Make sure to activate the virtual environment.
 \$env:PEER = 'True'; python -m backend.app
 
 ´´´
+**Seed the backend with data**
+Make sure to activate the virtual environment.
+
+´´´
+
+\$env:SEED_DATA = 'True'; python -m backend.app
+
+´´´
 
 **Run the frontent**
 In the frontend directory:
